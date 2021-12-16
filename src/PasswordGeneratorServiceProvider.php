@@ -2,9 +2,9 @@
 
 namespace DaleCollins\PasswordGenerator;
 
+use DaleCollins\PasswordGenerator\Commands\PasswordGeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DaleCollins\PasswordGenerator\Commands\PasswordGeneratorCommand;
 
 class PasswordGeneratorServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace DaleCollins\PasswordGenerator\Tests;
 
+use DaleCollins\PasswordGenerator\PasswordGeneratorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DaleCollins\PasswordGenerator\PasswordGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {
